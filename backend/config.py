@@ -23,8 +23,8 @@ try:
 except ImportError:
     print("dotenv not installed, skipping...")
 
-WEBUI_NAME = "Open WebUI"
-shutil.copyfile("../build/favicon.png", "./static/favicon.png")
+WEBUI_NAME = "ComGPT"
+shutil.copyfile("../build/logo.png", "./static/logo.png")
 
 ####################################
 # ENV (dev,test,prod)
